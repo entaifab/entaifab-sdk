@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "entaifab"
+version = "0.2.0"
+description = "Official Python SDK for the EntaiFab AI Gateway - OpenAI-compatible chat completions with provider routing managed in EntaiFab."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+authors = [{ name = "EntaiFab" }]
+keywords = ["entaifab", "ai", "gateway", "llm", "openai-compatible", "gemini"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/entaifab/entaifab-sdk"
+Repository = "https://github.com/entaifab/entaifab-sdk"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/entaifab"]

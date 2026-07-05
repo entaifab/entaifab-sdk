@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# JavaScript
+node_modules/
+*.tgz
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

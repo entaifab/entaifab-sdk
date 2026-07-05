@@ -1,0 +1,38 @@
+{
+  "name": "entaifab",
+  "version": "0.2.0",
+  "description": "Official JavaScript SDK for the EntaiFab AI Gateway - OpenAI-compatible chat completions with provider routing managed in EntaiFab.",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "entaifab",
+    "ai",
+    "gateway",
+    "llm",
+    "openai-compatible",
+    "gemini"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/entaifab/entaifab-sdk.git",
+    "directory": "javascript"
+  },
+  "homepage": "https://github.com/entaifab/entaifab-sdk#readme"
+}
