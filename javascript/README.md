@@ -1,5 +1,7 @@
 # EntaiFab JavaScript SDK
 
+> **Deprecated.** No longer maintained — use the official [OpenAI Node SDK](https://github.com/openai/openai-node) pointed at your gateway's base URL instead (see **Developer Tools** in the EntaiFab dashboard).
+
 The official JavaScript/TypeScript SDK for the [EntaiFab](https://app.entaifab.com) AI Gateway. Same call shapes as the OpenAI Node SDK — if you've used that, you already know this. Zero dependencies; works in Node 18+, browsers, and edge runtimes.
 
 ## Install

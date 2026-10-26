@@ -1,5 +1,7 @@
 # EntaiFab Python SDK
 
+> **Deprecated.** No longer maintained — use the official [OpenAI Python SDK](https://github.com/openai/openai-python) pointed at your gateway's base URL instead (see **Developer Tools** in the EntaiFab dashboard).
+
 The official Python SDK for the [EntaiFab](https://app.entaifab.com) AI Gateway. Same call shapes as the OpenAI Python SDK — if you've used that, you already know this. Zero runtime dependencies.
 
 ## Install

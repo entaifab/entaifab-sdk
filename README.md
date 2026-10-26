@@ -1,5 +1,7 @@
 # EntaiFab SDK
 
+> **Deprecated.** These packages are no longer maintained. The EntaiFab gateway is OpenAI-compatible by design, so there's no need for a separate client — point the official [OpenAI SDK](https://github.com/openai/openai-python) (or its [Node.js](https://github.com/openai/openai-node) counterpart) at your gateway's base URL instead. See the **Developer Tools** page in the EntaiFab dashboard for copy-paste examples.
+
 Official SDKs for the **EntaiFab AI Gateway** — one endpoint, one key, any AI provider. Each API key is bound to a provider and model your admin configures (Gemini, OpenAI, ...) in the EntaiFab dashboard, so applications never hard-code a vendor — and never even need to name a model.
 
 The API is OpenAI-compatible by design: if you've used the OpenAI SDK, switching is literally changing the import and the key.
